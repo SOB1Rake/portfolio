@@ -56,7 +56,7 @@ export default function Navbar() {
               </div>
             )} */}
             {menuOpen && (
-  <div className="md:hidden absolute top-[70px] right-[-112px] w-[50%] px-4">
+  <div className="md:hidden absolute top-[70px] right-0 w-[50%] px-4">
     <div className="bg-[#0F172A] rounded-xl shadow-lg p-4 flex flex-col gap-3 w-[50%]">
       
       <a href="#!" className="hover:text-blue-500 transition">
