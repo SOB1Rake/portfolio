@@ -48,32 +48,25 @@ export default function Navbar() {
             <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
               <Menu />
             </button>
-            {/* {menuOpen && (
-              <div className="md:hidden ">
-                <a href="#home">{translations[lang].projects}</a>
-                <a href="#about">{translations[lang].services}</a>
-                <a href="#contact">{translations[lang].contact}</a>
-              </div>
-            )} */}
             {menuOpen && (
-  <div className="md:hidden absolute top-[70px] right-0 w-[50%] px-4">
-    <div className="bg-[#0F172A] rounded-xl shadow-lg p-4 flex flex-col gap-3 ">
-      
-      <a href="#!" className="hover:text-blue-500 transition">
-        {translations[lang].projects}
-      </a>
+              <div className="md:hidden absolute top-[70px] right-0 w-[50%] px-4">
+                <div className="bg-[#0F172A] rounded-xl shadow-lg p-4 flex flex-col gap-3 ">
 
-      <a href="#!" className="hover:text-blue-500 transition">
-        {translations[lang].services}
-      </a>
+                  <a href="#!" className="hover:text-blue-500 transition">
+                    {translations[lang].projects}
+                  </a>
 
-      <a href="#!" className="hover:text-blue-500 transition">
-        {translations[lang].contact}
-      </a>
+                  <a href="#!" className="hover:text-blue-500 transition">
+                    {translations[lang].services}
+                  </a>
 
-    </div>
-  </div>
-)}
+                  <a href="#!" className="hover:text-blue-500 transition">
+                    {translations[lang].contact}
+                  </a>
+
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </nav>
