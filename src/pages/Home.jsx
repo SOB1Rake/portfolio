@@ -5,8 +5,8 @@ import { translations } from '../translations.jsx';
 
 // }
 // Images{
-import respme from '../assets/respme.jpg'
-import standme from '../assets/standme.jpg'
+import respme from '../assets/img1.jpg'
+import standme from '../assets/img2.jpg'
 // }
 
 
