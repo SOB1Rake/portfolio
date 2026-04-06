@@ -55,6 +55,25 @@ export default function Navbar() {
                 </div>
             </header>
 
+            <main>
+                <section>
+                    <div>
+                        <div>
+                            <h1>40+</h1>
+                            <h2>Yakunlangan Loyihalar</h2>
+                        </div>
+                        <div>
+                            <h1>25+</h1>
+                            <h2>O'quvchilarim</h2>
+                        </div>
+                        <div>
+                            <h1>90%</h1>
+                            <h2>Mijoz qoniqishi</h2>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
         </div>
     )
 }
