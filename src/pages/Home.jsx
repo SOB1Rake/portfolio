@@ -3,6 +3,7 @@ import { translations } from '../translations.jsx';
 
 // Icons{
 
+import { ArrowRight } from 'lucide-react';
 // }
 // Images{
 import respme from '../assets/img1.jpg'
@@ -55,20 +56,32 @@ export default function Navbar() {
                 </div>
             </header>
 
-            <main>
-                <section>
+            <main className="bg-[#0F172A]">
+                <section className="container">
+                    <div className="flex justify-between pt-[50px] pb-[50px]">
+                        <div>
+                            <h1 className="text-[30px] font-black text-[#FFFFFF]">40+</h1>
+                            <h2 className="text-[12px] font-semibold text-[#64748B]">Yakunlangan Loyihalar</h2>
+                        </div>
+                        <div>
+                            <h1 className="text-[30px] font-black text-[#FFFFFF]">25+</h1>
+                            <h2 className="text-[12px] font-semibold text-[#64748B]">O'quvchilarim</h2>
+                        </div>
+                        <div>
+                            <h1 className="text-[30px] font-black text-[#FFFFFF]">90%</h1>
+                            <h2 className="text-[12px] font-semibold text-[#64748B]">Mijoz qoniqishi</h2>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="container">
                     <div>
-                        <div>
-                            <h1>40+</h1>
-                            <h2>Yakunlangan Loyihalar</h2>
-                        </div>
-                        <div>
-                            <h1>25+</h1>
-                            <h2>O'quvchilarim</h2>
-                        </div>
-                        <div>
-                            <h1>90%</h1>
-                            <h2>Mijoz qoniqishi</h2>
+                        <div className="flex justify-between items-center">
+                            <div>
+                                <p className="text-[12px] font-bold text-[#0D59F2]">Portfolio</p>
+                                <h2 className="text-[#FFFFFF] text-[30px] font-black">Featured Projects</h2>
+                            </div>
+                            <p className="text-[#64748B] text-[14px] font-bold flex">View Archive <ArrowRight /></p>
                         </div>
                     </div>
                 </section>
